@@ -86,9 +86,4 @@ deploy:
 #Sitemap
 #plugins: hexo-generator-sitemap
 
-# 博文阅读量
-leancloud_visitors:
-  enable: true
-  app_id: KHAtzPIgR3ePKFmQEgPpM3Ex-gzGzoHsz
-  app_key: lqduFs9KHCTbGpGwcOYxttlJ
 
