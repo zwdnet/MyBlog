@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://zwdnet.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,11 +79,20 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repository: https://github.com/zwdnet/zwdnet.github.io.git
   branch: master
+- type: baidu_url_submitter
 
 #Sitemap
 #plugins: hexo-generator-sitemap
+
+# 百度主动提交
+baidu_url_submit:
+  count: 1
+  host: https://zwdnet.github.io
+  token: sUYa4SjOeoCG3iLu
+  path: baidu_urls.txt
+
 
 
