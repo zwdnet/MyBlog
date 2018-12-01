@@ -3,6 +3,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
 
+{% if theme.google_site_verification %}
+<meta name="google-site-verification" content="E9deYnivN5MuHMuIfiMZZfS0alv-d_0UjcwjBL79lGU" />
+{% endif %}
+
+{% if theme.baidu_site_verification %}
+<meta name="baidu-site-verification" content="LDh3ndFcC8" />
+{% endif %}
+
 
 {% if theme.pace %}
   {% set pace_css_uri = url_for(theme.vendors._internal + '/pace/'+ theme.pace_theme +'.min.css?v=1.0.2') %}
