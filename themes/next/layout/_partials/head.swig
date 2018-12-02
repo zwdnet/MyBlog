@@ -8,7 +8,7 @@
 {% endif %}
 
 {% if theme.baidu_site_verification %}
-<meta name="baidu-site-verification" content="LDh3ndFcC8" />
+<meta name="baidu-site-verification" content="iHYWJxscwD" />
 {% endif %}
 
 
