@@ -3,11 +3,11 @@ import sys
 
 gpus = sys.argv[1]
 if gpus == "test":
-    os.system("hexo clean")
+    # os.system("hexo clean")
     os.system("hexo generate")
     os.system("hexo server")
 elif gpus == "post":
-    os.system("hexo clean")
+    # os.system("hexo clean")
     os.system("hexo generate")
     os.system("hexo deploy")
 elif gpus == "push":  #向github同步本地项目
