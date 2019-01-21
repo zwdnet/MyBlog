@@ -1,6 +1,7 @@
 title: ETF定投数据分析2——数据分析
 date: 2019-01-17 13:57:50
 tags: [ETF,投资理财,定投,Python,数据分析]
+categories: 计算机
 
 categories: 计算机
 ---
