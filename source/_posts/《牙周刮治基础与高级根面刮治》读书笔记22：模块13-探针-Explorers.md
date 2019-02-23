@@ -5,10 +5,10 @@ tags: [口腔内科,牙周病,读书笔记,探诊]
 categories: 口腔内科
 ---
 
-模块13 探针(Explorers)
+**模块13 探针(Explorers)
 用来探查龈下牙石和其它异常。
 Section1:探针(Explorers)
-探针的功能：A:评估设备。B.在牙周治疗前后和过程中，用触觉来探查牙齿表面的性质和特性。
+探针的功能：A:评估设备。B.在牙周治疗前后和过程中，用触觉来探查牙齿表面的性质和特性。**
 牙石探查的重要性：菌斑生物膜时牙周病的主要致病因素，牙石去除是牙周治疗成功的关键因素。探针是评估牙根表面形态，探查与菌斑相关的因素如牙石，修复体缺陷，表面缺陷和根面龋的最好的工具。
 有不同的探针设计，所有设计都不能很好的适应龈下探诊的使用。
 探诊用力：手指用力
@@ -27,11 +27,11 @@ Section1:探针(Explorers)
 ⑦对于邻面的牙根面的考虑：用力应该到达接触区域以下，这样就可以探查超过一半的邻面牙根表面，然后从另一侧探查另一半。
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0099-yzgzjc22/02.png)
 Section2,3：技术练习,略了。
-Section4:变通技术（Technique Alerts)
+**Section4:变通技术（Technique Alerts)**
 后牙远颊或远舌线角的地方，以及前牙颊舌侧中线的地方，初学者常探查失败。水平探查用力方式很管用。
 要注意保持腕部的正确位置。
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0099-yzgzjc22/03.png)
-Section5:探查牙石(Detection of Dental Calculus Deposits)
+**Section5:探查牙石(Detection of Dental Calculus Deposits)**
 牙石是牢固附着于牙齿表面或修复体表面的，由矿化的菌斑生物膜形成的坚硬物质。也被称为牙垢(tartar)。牙石上有菌斑存在，即牙石的表面覆盖着菌斑生物膜。
 ①龈上牙石是位于龈缘冠方的牙石。当用三枪管干燥后，龈上牙石为粗糙的，呈白垩色的外光，与光滑的釉质表面有明显区别。湿润的牙石很难探查到，因为湿润的表面会反光。
 ②龈下牙石时藏于龈缘以下的龈沟或牙周袋内的牙石。其外形常是平坦的。
@@ -55,9 +55,9 @@ Section5:探查牙石(Detection of Dental Calculus Deposits)
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0099-yzgzjc22/10.png)
 龈下根面龋
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0099-yzgzjc22/11.png)
-Section6:龋坏的探诊(Detection of Dental Caries)
+**Section6:龋坏的探诊(Detection of Dental Caries)**
 貌似不是牙周病的内容，跳过。
-(总结：探诊主要是探查龈下牙石，虽然用刮治器也可以探查，但是探针要更准确。要点是器械尖端要与牙面贴合，轻握器械，不要施加压力，感受器械传导的尖端的震动信息。探诊在袋内采用层层推进的方式运动，提拉不要离开袋。深袋探诊可以分段进行，每段小于3mm。）
+**(总结：探诊主要是探查龈下牙石，虽然用刮治器也可以探查，但是探针要更准确。要点是器械尖端要与牙面贴合，轻握器械，不要施加压力，感受器械传导的尖端的震动信息。探诊在袋内采用层层推进的方式运动，提拉不要离开袋。深袋探诊可以分段进行，每段小于3mm。）**
 我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“好看”。谢谢。
 我的个人博客地址：https://zwdnet.github.io
 我的CSDN博客地址：https://blog.csdn.net/zwdnet
