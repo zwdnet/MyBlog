@@ -49,3 +49,5 @@ OK，中文也可以正常显示的!使用的是免费版，有时会有弹窗(�
 我的个人博客地址：https://zwdnet.github.io
 我的CSDN博客地址：https://blog.csdn.net/zwdnet
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)
+
