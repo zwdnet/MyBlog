@@ -70,4 +70,4 @@ Section5:技术练习——后牙(Technique Practice——Posterior Teeth)
 我的个人博客地址：https://zwdnet.github.io
 我的CSDN博客地址：https://blog.csdn.net/zwdnet
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
-
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)
