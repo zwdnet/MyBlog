@@ -135,7 +135,7 @@ if __name__ == "__main__":
     print(result)
 ```
 画个思维导图总结一下吧。
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0178-QTLearn/33/pandas%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0178-QTLearn/33/pandas%E6%93%8D%E4%BD%9C.svg?sanitize=true)
 
 
 我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“在看”。
