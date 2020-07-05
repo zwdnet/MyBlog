@@ -1,5 +1,5 @@
 ---
-title: '量化投资学习笔记73——CFA一级笔记04:经济学第二部分(Economics)'
+title: '量化投资学习笔记72——CFA一级笔记04:经济学第二部分(Economics)'
 date: 2020-07-05 13:17:19
 tags: [量化投资, CFA, 学习笔记]
 categories: 量化投资
