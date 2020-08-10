@@ -119,7 +119,9 @@ categories: 口腔内科
 
 总结：现在的做法失活剂很少用了，都是局麻下直接拔髓的。现有证据显示一次法根管治疗和多次法相比并发症的风险并不会增大，而复诊时间会减少，值得尝试。要选好病例。
 
+我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“在看”。
 我的个人博客地址：https://zwdnet.github.io
+我的知乎文章地址： https://www.zhihu.com/people/zhao-you-min/posts
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)
 

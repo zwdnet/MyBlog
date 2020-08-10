@@ -109,7 +109,10 @@ A的预后要好于B。要考虑预后不好的患牙对邻牙的影响，及早
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0064-lcyzbxbj05/04.jpg)
 总结：手术和修复治疗是在非手术治疗完成，进入维持阶段以后才考虑的。接下来就进入治疗阶段的学习了。
 昨天发的周广原老师沟通课的总结在kq88上又被删了，我决定从今天开始停止在kq88上更新博客了，以后文章就发两个地方，一个微信订阅号，一个是我自己的博客。宣传的途径又少了一个，欢迎大家在朋友圈等地方分享，谢谢。
+
+我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“在看”。
 我的个人博客地址：https://zwdnet.github.io
+我的知乎文章地址： https://www.zhihu.com/people/zhao-you-min/posts
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
 
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)

@@ -80,8 +80,9 @@ def index(data, basedata, safeIncome):
 α表示了一个策略风险调整后的超额收益。与夏普比率不同之处是它使用β来表示风险。
 (《量化投资策略：如何实现超额收益》 p22)
 可见我的策略实盘并不好，接下来就利用这些函数开始折腾数据啦。
-我发文章的两个地方，欢迎大家在朋友圈等地方分享，欢迎点“好看”。谢谢。
+我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“在看”。
 我的个人博客地址：https://zwdnet.github.io
+我的知乎文章地址： https://www.zhihu.com/people/zhao-you-min/posts
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
 
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)

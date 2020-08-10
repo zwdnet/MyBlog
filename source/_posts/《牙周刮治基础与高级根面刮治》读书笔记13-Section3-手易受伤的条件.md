@@ -28,8 +28,9 @@ b.研究显示关节活动过度的人手关节的本体感受下降。
 （既然已经在干这行了，这些应该没有——要有早发现了。）
 Section4增强手的力量的练习(exercises for improved hand strength)
 这节pass了，实操就是最好的锻炼了。
-我发文章的两个地方，欢迎大家在朋友圈等地方分享，欢迎点“好看”。谢谢。
+我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“在看”。
 我的个人博客地址：https://zwdnet.github.io
+我的知乎文章地址： https://www.zhihu.com/people/zhao-you-min/posts
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
 
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)

@@ -81,7 +81,13 @@ categories: 口腔内科
 
 总结：牙周组织的解剖和组织学，先大概了解一下。
 
+
+
+
+
+我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“在看”。
 我的个人博客地址：https://zwdnet.github.io
+我的知乎文章地址： https://www.zhihu.com/people/zhao-you-min/posts
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
 
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)

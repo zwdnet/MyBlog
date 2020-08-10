@@ -42,8 +42,9 @@ categories: 口腔内科
 
 这是今年最后一篇博文/推送了，开通博客/微信公众号大半年了，感觉对自己学习促进很大的。也希望对大家有帮助吧。希望在新的一年里继续与大家共同学习，共同进步。祝大家新年快乐，万事如意！
 
-我发文章的两个地方，欢迎大家在朋友圈等地方分享，谢谢。
+我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“在看”。
 我的个人博客地址：https://zwdnet.github.io
+我的知乎文章地址： https://www.zhihu.com/people/zhao-you-min/posts
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
 
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)

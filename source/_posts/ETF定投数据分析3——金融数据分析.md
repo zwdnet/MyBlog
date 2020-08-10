@@ -102,7 +102,8 @@ import scipy as sp
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0089-etfinverstment/03.png)
 接下来，打算用自己的数据实操一下蒙特卡洛算法。下次吧。
 
-我发文章的两个地方，欢迎大家在朋友圈等地方分享，欢迎点“好看”。谢谢。
+我发文章的三个地方，欢迎大家在朋友圈等地方分享，欢迎点“在看”。
 我的个人博客地址：https://zwdnet.github.io
+我的知乎文章地址： https://www.zhihu.com/people/zhao-you-min/posts
 我的微信个人订阅号：赵瑜敏的口腔医学学习园地
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/other/wx.jpg)
