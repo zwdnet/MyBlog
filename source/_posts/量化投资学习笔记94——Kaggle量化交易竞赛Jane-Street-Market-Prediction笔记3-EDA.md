@@ -7,9 +7,7 @@ categories: 量化投资
 接下来就正式开始干活吧。先进行数据探索(Exploratory Data Analysis，EDA)和特征工程。
 主要参考了Wes McKinney.Python for Data Analysis. O'Reilly Media, Inc.October 2017:Second Edition.
 还有几个个现成做好的：
-[1](https://www.kaggle.com/muhammadmelsherbini/jane-street-extensive-eda)
-[2](https://www.kaggle.com/manavtrivedi/eda-and-feature-selection)
-[3]https://www.kaggle.com/carlmcbrideellis/jane-street-eda-of-day-0-and-feature-importance
+[1](https://www.kaggle.com/muhammadmelsherbini/jane-street-extensive-eda)  [2](https://www.kaggle.com/manavtrivedi/eda-and-feature-selection)   [3](https://www.kaggle.com/carlmcbrideellis/jane-street-eda-of-day-0-and-feature-importance)
 跟着这三个做吧。本文基本就是根据这三个notebook来的，排列组合了一下。
 数据探索，就是看数据的特征，有没有什么规律，模式，可以在接下来的特征工程中应用。
 加载数据后先看数据情况。
