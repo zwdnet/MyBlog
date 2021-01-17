@@ -38,7 +38,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 import janestreet
 
 
-# 工具函数，返回神经网络训练的每一步def make_train_step(model, loss_fn, optimizer):
+# 工具函数，返回神经网络训练的每一步
+def make_train_step(model, loss_fn, optimizer):
     # 执行在循环中训练过程
     def train_step(x, y):
         # 设置训练模式
@@ -62,7 +63,8 @@ import janestreet
     return train_step
 
 
-# 建模过程def modeling(train):
+# 建模过程
+def modeling(train):
     print("开始建模")
     
     x_train = train.loc[:, train.columns.str.contains('feature')]
@@ -111,7 +113,8 @@ import janestreet
     
     return model
 
-# 特征工程def featureEngineer(data):
+# 特征工程
+def featureEngineer(data):
     data = data[data['weight'] != 0]
     data = data.fillna(0.0)
     weight = data['weight'].values
@@ -119,7 +122,8 @@ import janestreet
     data['action'] = ((weight * resp) > 0).astype('int')
     return data
 
-# 进行预测，生成提交文件，分类版def predict_clf(model):
+# 进行预测，生成提交文件，分类版
+def predict_clf(model):
     env = janestreet.make_env()
     iter_test = env.iter_test()
     for (test_df, sample_prediction_df) in iter_test:
