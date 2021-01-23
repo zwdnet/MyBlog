@@ -13,7 +13,7 @@ elif gpus == "post":
 elif gpus == "push":  #向github同步本地项目
     os.system("hexo clean")
     os.system("git add .")
-    message = "增加了一篇博文"
+    message = "增加了一篇博文。"
     command = "git commit -a -m"
     command += ' "'
     command += message
