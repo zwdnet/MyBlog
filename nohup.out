@@ -1461,3 +1461,39 @@ INFO  Submitting urls
 https://zwdnet.github.io/2021/01/23/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B099%E2%80%94%E2%80%94%E5%88%9B%E9%80%A0%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A1%86%E6%9E%B6/
 {"remain":9999,"success":1}
 INFO  Deploy done: baidu_url_submitter
+INFO  Validating config
+WARN  Deprecated config detected: "external_link" with a Boolean value is deprecated. See https://hexo.io/docs/configuration for more details.
+INFO  Start processing
+INFO  Generating Baidu urls for last 1 posts
+INFO  Posts urls generated in baidu_urls.txt
+https://zwdnet.github.io/2021/01/23/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B099%E2%80%94%E2%80%94%E5%88%9B%E9%80%A0%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A1%86%E6%9E%B6/
+WARN  ===============================================================
+WARN  ========================= ATTENTION! ==========================
+WARN  ===============================================================
+WARN   NexT repository is moving here: https://github.com/theme-next 
+WARN  ===============================================================
+WARN   It's rebase to v6.0.0 and future maintenance will resume there
+WARN  ===============================================================
+INFO  Files loaded in 13 s
+INFO  Generated: 2021/01/23/量化投资学习笔记99——创造你的第一个深度学习框架/index.html
+INFO  Generated: 2021/01/20/量化投资学习笔记98——kaggle量化投资比赛记录7-深度学习及pytorch/index.html
+INFO  Generated: sitemap.xml
+INFO  Generated: content.json
+INFO  4 files generated in 25 min
+INFO  Validating config
+WARN  Deprecated config detected: "external_link" with a Boolean value is deprecated. See https://hexo.io/docs/configuration for more details.
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+INFO  Copying files from extend dirs...
+[master 4e4e3f6d] Site updated: 2021-01-24 00:26:03
+ 4 files changed, 618 insertions(+), 618 deletions(-)
+To https://github.com/zwdnet/zwdnet.github.io.git
+   d79e3411..4e4e3f6d  HEAD -> master
+Branch 'master' set up to track remote branch 'master' from 'https://github.com/zwdnet/zwdnet.github.io.git'.
+INFO  Deploy done: git
+INFO  Deploying: baidu_url_submitter
+INFO  Submitting urls 
+https://zwdnet.github.io/2021/01/23/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B099%E2%80%94%E2%80%94%E5%88%9B%E9%80%A0%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A1%86%E6%9E%B6/
+{"remain":9998,"success":1}
+INFO  Deploy done: baidu_url_submitter

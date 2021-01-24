@@ -35,7 +35,7 @@ def loadData():
     plt.axis("off")
     plt.savefig("./output/data.png")
 ```
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/data.png?q-sign-algorithm=sha1&q-ak=AKIDXr9XWc76tZiVlPMo2mu1Ixzk8z9Ya2TJ&q-sign-time=1611212865;1611220065&q-key-time=1611212865;1611220065&q-header-list=&q-url-param-list=&q-signature=e6fd14ebcfb04fa54fd67e47720491beea230f98&x-cos-security-token=2d75d53e3c37030066b1b7b5016df54243422e0a20001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/data.png)
 把数据连接起来，并创建标签。
 ```python
     # 把数据连接起来，并创建标签
@@ -99,7 +99,7 @@ z = (w.t)x+b
 yhead = sigmoid(z)
 sigmoid使得z在[0,1]区间内。即一个概率值。
 sigmoid函数的计算图
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/02.jpg?q-sign-algorithm=sha1&q-ak=AKIDeKyuk9tU1ch6Y137fZBRphr76KR0pZj1&q-sign-time=1611213531;1611220732&q-key-time=1611213531;1611220732&q-header-list=&q-url-param-list=&q-signature=ebf8b2ef335264c6b475e44a5afcc4be813b9c89&x-cos-security-token=2f19e96bbe61c6cdff90564ff9b4149aef0160de20001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/02.jpg)
 为什么我们使用sigmoid函数？它返回一个概率性的结果，它是可微的，因此我们可以使用梯度下降算法。
 下面我们初始化参数。
 输入的数据是有4096个点的图像，每个点都有其自己的权重值。第一步是将每个点乘以其自己的权重值。初始权重值的设置有不同的方法，这里设置为0.01。偏差值为0。
@@ -138,7 +138,7 @@ def fp(w, b, x_train, y_train):
 采用梯度下降的优化算法
 我们需要降低成本。首先初始化权重和偏置值，这决定了初始成本。然后要更新权重和偏置值。这项技术称为梯度下降。
 更新的方法，用老的参数值减去在该点的梯度，将该值作为参数的新的值。计算梯度的方法，是求损失函数在该点对该参数的偏导数。梯度同时确定了迭代的大小和方向。在迭代的时候，梯度要乘以一个学习率α。w' = w - α∂L/∂w 学习率是需要权衡的，太小，学习得太慢，但不容易错过最低值。太大，学习得快，但容易错过最低值。学习率也被称为超参数(hyperparameter)，是需要选择和调参的。因此前向过程就是从参数到成本，反向过程就是从成本到参数，更新参数。怎么计算梯度及更新参数，就是数学内容了。直接上结果吧。
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/03.png?q-sign-algorithm=sha1&q-ak=AKIDfeLDdTxlRp1yQrg3wq0mPd17U803gcDt&q-sign-time=1611213580;1611220781&q-key-time=1611213580;1611220781&q-header-list=&q-url-param-list=&q-signature=270cbc3644903b4ea55ddecda6229798e42a584e&x-cos-security-token=ccc9753173e4e76f0c108373ba96aebc95fc820420001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/03.png)
 ```python
 # 前后向传播过程
 def fbp(w, b, x_train, y_train):
@@ -178,7 +178,7 @@ def update(w, b, x_train, y_train, learning_rate, number_of_iteration):
     plt.savefig("./output/learning_curve.png")
     return parameters, gradients, cost_list
 ```
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/04.png?q-sign-algorithm=sha1&q-ak=AKIDLeqf1TWWCPnGlrRr16x1sLUUApo1pZsb&q-sign-time=1611213622;1611220822&q-key-time=1611213622;1611220822&q-header-list=&q-url-param-list=&q-signature=71a5a37c0a33bd1632f11af41e1c63c3e5bc1d0b&x-cos-security-token=fcb97a1a2b228ae8d7eb94f2e324747ac8b1aa1520001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/04.png)
 下面进行预测。
 ```python
 # 进行预测
@@ -219,7 +219,7 @@ def predict(w, b, x_test):
 又称深度神经网络(deep neural network）或深度学习(deep learning)。最基础的人工神经网络为将逻辑回归进行至少两次。在逻辑回归中，只有输入层和输出层，而在神经网络中，有至少一个隐藏层在输入层和输出层之间。“深度(deep)”是隐藏层的层数很多，有多少是一个相对的概念，随着硬件的发展不断增加。“隐藏”的意思是它们不能直接看到输入的训练数据。
 如下图，有一个隐藏层，这样的神经网络有2层，在计算层数的时候输入层被忽略。
 
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/05.jpg?q-sign-algorithm=sha1&q-ak=AKIDK3Ri5jiFlmaUUhIaaViT6S42aHT3bhZe&q-sign-time=1611213645;1611220845&q-key-time=1611213645;1611220845&q-header-list=&q-url-param-list=&q-signature=a6c669cde223aaa58b6cfa45322e62501e8e244f&x-cos-security-token=8dd1163f2185baf97c1e15e6f8f43e0beedbb38120001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/05.jpg)
 隐藏层有3个节点，数量的选择是随意的，没有理由。节点的数量就像学习率一样，是一个超参数。输入和输出层的情况和逻辑回归中一样。其中用到了tanh函数，用作激活函数，比sigmoid产生的输出更加集中。它还能增加非线性，使得模型学习得更好。隐藏层是输入层的输出，是输出层的输入。
 下面就来具体研究2层神经网络。
 层数和参数的初始化。
@@ -352,7 +352,7 @@ parameters = NN(x_train, y_train, x_test, y_test, num_iterations = 2500)
 ```
 训练集预测准确率100.000000
 测试集预测准确率95.161290
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/06.png?q-sign-algorithm=sha1&q-ak=AKIDjMWR2XHI2r2d4wndvNNp6hUoD2umWRM6&q-sign-time=1611213678;1611220879&q-key-time=1611213678;1611220879&q-header-list=&q-url-param-list=&q-signature=db77f7fda6dfadadc45c5aa1224c9852d7d4d21c&x-cos-security-token=0bfa8915908ae570cdc9dd3af77a6ad4b299668d20001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/06.png)
 
 不比逻辑回归好啊？
 L层神经网络(L layer neural network)
@@ -531,7 +531,7 @@ def linear_regress():
     plt.savefig("./output/price_sell.png")
 ```
 
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/07.png?q-sign-algorithm=sha1&q-ak=AKIDW9eY4Cit2X38vLJ6iGm8d1VOwx8xr0s5&q-sign-time=1611213713;1611220914&q-key-time=1611213713;1611220914&q-header-list=&q-url-param-list=&q-signature=a13dc25374050f05fb443165d866698bc6f81327&x-cos-security-token=629b153e9f7f83e07c874b4b6f02e6041e211d0320001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/07.png)
 
 现在要问当车价为100时的销量。用线性回归来解决。要用直线来拟合这些数据，目标是误差最小。
 线性回归的步骤：
@@ -586,7 +586,7 @@ def linear_regress():
     plt.savefig("./output/lr_curve.png")
 ```
 
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/08.png?q-sign-algorithm=sha1&q-ak=AKIDM2dgQrwVL4LBmYP7VWZk7GCvOze2BkXI&q-sign-time=1611213742;1611220942&q-key-time=1611213742;1611220942&q-header-list=&q-url-param-list=&q-signature=d45d68f54e1a12b0776703e80f43fe61b17cbb37&x-cos-security-token=d25ff961a957e88be97ae3b3cceeb4e0d3d0c56020001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/08.png)
 
 进行了1001次迭代。在1000次迭代后，损失接近为0。现在进行预测。
 ```python
@@ -598,7 +598,7 @@ def linear_regress():
     plt.savefig("./output/result.png")
     plt.close()
 ```
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/09.png?q-sign-algorithm=sha1&q-ak=AKIDE72MmSWuaRUyHxli6a1WMJbNvuuYj3vR&q-sign-time=1611213763;1611220964&q-key-time=1611213763;1611220964&q-header-list=&q-url-param-list=&q-signature=c80e6232547815097488bd66ed91ad7827c561e9&x-cos-security-token=32fca7ee713482b3f640f8f7ee412367775ce75320001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/09.png)
 
 逻辑回归
 对于分类问题，线性回归表现并不好。
@@ -688,7 +688,7 @@ def logistic_regress2():
 模型准确率92%。
 
 
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/10.png?q-sign-algorithm=sha1&q-ak=AKIDLpV13B26bxSqIn2LLEArsfIDc6TSVlkM&q-sign-time=1611213793;1611220993&q-key-time=1611213793;1611220993&q-header-list=&q-url-param-list=&q-signature=12b9037246784e83421f69b0cd11bcfcbda45d8c&x-cos-security-token=2459aabbdbf444ce955c804a4703f9d2d83ac71b20001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/10.png)
 
 人工神经网络(Artificial Neural Network, ANN)
 逻辑回归处理分类问题很好，但当复杂性(非线性)增加时，模型准确性下降。为了增加模型的复杂性，需要增加更多的非线性函数的隐藏层。
@@ -827,8 +827,8 @@ def ANN():
 ```
 结果，正确率97.8%，花了大概一小时。
 
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/11.png?q-sign-algorithm=sha1&q-ak=AKID5oQVeGNsreGmUObdZjYq2tw3J4Bazxam&q-sign-time=1611213816;1611221016&q-key-time=1611213816;1611221016&q-header-list=&q-url-param-list=&q-signature=599b6048c3f25fd8a1a7e1c77c8b7f751a4b43b8&x-cos-security-token=828c4dd7381bc14d0a9297dfb2349eca7321830120001)
-![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/12.png?q-sign-algorithm=sha1&q-ak=AKID8LllB7D6rGYst1ZSIdrKhJNP1Lw80Xsd&q-sign-time=1611213825;1611221025&q-key-time=1611213825;1611221025&q-header-list=&q-url-param-list=&q-signature=6ce947dd5a1b6d29170196c09ac2c570e46c2a58&x-cos-security-token=83a2df5e0928865537b1997b94b296d35a0f0d6d20001)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/11.png)
+![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0234-dp/12.png)
 
 还有卷积神经网络，图像处理用得比较多，先pass了。
 总结一下，机器学习也好，深度学习也好，其实质都是拟合数据，拟合的方法(模型)不一样而已。用已知数据训练模型(求出一组参数)，然后用模型对未知数据做出预测。深度学习的模型是神经网络，由神经节组成。每个神经节接受若干输入，经过激活函数(通常为非线性函数，以拟合非线性关系)，产生一个输出。若干个神经节形成一层，前一层的输出作为下一层的输入，一直向前传递直到输出层。用输出结果与真实值对比(用损失函数)计算出损失值(前向传播)。接着，用梯度下降的方法沿着路径反向计算使损失值最小的参数，并更新参数(反向传播)。上述步骤重复若干次，损失值和预测准确率收敛到一定程度，即停止训练，运用模型进行预测。
