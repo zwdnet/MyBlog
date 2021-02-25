@@ -97,7 +97,7 @@ def Random_Model(X_train, Y_train, X_test, Y_test):
 ```
 下面尝试机器学习算法。
 逻辑回归
-参考: https://blog.csdn.net/u011734144/article/details/79717470
+[参考:]( https://blog.csdn.net/u011734144/article/details/79717470)
 本来逻辑回归只能用于二分类问题，但可以用"one vs rest"方法(即下文模型定义中的"ovr"，将某类与其余类别做为两类，分别进行逻辑回归，取概率最大的分类作为预测结果。
 ```python
 # 算法2:逻辑回归
@@ -120,7 +120,7 @@ __main__.LogisticRegression_Model的运行时间为 : 156.33382360900578
 ```
 准确率达到91.69%，突破90%了。但时间也用了两分多钟。
 朴素贝叶斯算法
-参考: https://www.cnblogs.com/pinard/p/6074222.html
+[参考:]( https://www.cnblogs.com/pinard/p/6074222.html)
 ```python
 # 算法3:朴素贝叶斯
 @run.timethis
@@ -139,7 +139,7 @@ def Bayes_Model(X_train, Y_train, X_test, Y_test):
 ```
 准确率55.6%，不过时间只要1.8秒。
 支持向量机
-参考: https://zhuanlan.zhihu.com/p/42334376
+[参考:]( https://zhuanlan.zhihu.com/p/42334376)
 ```python
 # 算法4:支持向量机
 @run.timethis
@@ -183,7 +183,7 @@ def RF_Model(X_train, Y_train, X_test, Y_test):
 准确率97%，训练时间两分钟。这个也比较好。
 接下来用深度学习。
 先用一般的神经网络。
-参考:https://www.jianshu.com/p/43478538bbc6
+[参考:](https://www.jianshu.com/p/43478538bbc6)
 ```python
 # 算法7:一般神经网络
 class fc_net(nn.Module):
@@ -270,8 +270,7 @@ __main__.NN_Model的运行时间为 : 655.4456413289881秒
 时间很长，但最后结果还不如随机森林呢。
 再来试试其它神经网络模型。
 卷积神经网络以前只是知道个名称，没仔细了解过，写详细一点。
-先看原理，看这两个视频: https://b23.tv/55a0bN
-https://b23.tv/MgmQi0
+先看原理，看这两个视频: [1](https://b23.tv/55a0bN) [2](https://b23.tv/MgmQi0)
 全连接神经网络的缺点:网络层次越深，计算量越大，多个神经元输出作为下一级神经元输入时，形成多个复杂的嵌套关系。
 卷积神经网络包括输入层(input layer)，卷积层(convolutional layer)，池化层(pooling layer)和输出层(全连接层+softmax layer)。
 ①总有至少1个卷积层，用以提取特征。
@@ -282,7 +281,7 @@ https://b23.tv/MgmQi0
 超参数设置
 padding，保持边界信息。
 stride步幅，卷积核滑动幅度，默认为1。
-下面代码撸起来，参考这个项目: https://github.com/liamlycoder/PyTorch_Primer/tree/master/PyTorch_Primer/05CNNonMNIST
+下面代码撸起来，参考[这个项目:]( https://github.com/liamlycoder/PyTorch_Primer/tree/master/PyTorch_Primer/05CNNonMNIST)
 ```python
 # 算法8:卷积神经网络
 # 需要将数据转换成二维图片形式
@@ -415,7 +414,7 @@ def CONV_Model(mnist_train, mnist_val, mnist_test, batch_size = 64, lr = 0.001):
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0178-QTLearn/72/03.jpg)
 ![](https://zymblog-1258069789.cos.ap-chengdu.myqcloud.com/blog0178-QTLearn/72/04.jpg)
 文件名用“序号_标签”的形式命名，比如09_9.jpg。接下来就将图片转换成28×28的数据。
-照这里: https://blog.csdn.net/qq_40358998/article/details/79281936
+照[这里:]( https://blog.csdn.net/qq_40358998/article/details/79281936)
 ```python
 # 将图片文件转换为MNIST数据
 @run.change_dir
@@ -606,8 +605,7 @@ def work(datas, labels):
 ```
 都是6跟8，9跟0，4跟8，9跟1混淆了。
 那能不能再提高的?或者说让模型对数据不那么挑?看看别人做的吧。
-找到一篇:
-https://paperswithcode.com/paper/effective-handwritten-digit-recognition-using
+找到[一篇:](https://paperswithcode.com/paper/effective-handwritten-digit-recognition-using)
 Yellapragada SS Bharadwaj, Rajaram P, Sriram V.P, et al. Effective Handwritten Digit Recognition using Deep Convolution Neural Network. International Journal of Advanced Trends in Computer Science and Engineering, Volume 9 No.2, March -April 2020. https://doi.org/10.30534/ijatcse/2020/66922020
 作者声称模型对MNIST训练集的错误率达到低于0.1%，对真实手写数字的识别准确率达到98.5%。这就是我想要的，还有代码实现，可是用的是tensorflow，我没用过，尝试用pytorch实现一下看看吧。
 论文里给的模型参数：
@@ -663,7 +661,7 @@ class improve_conv_net(nn.Module):
 把学习率再调高10倍到0.01看看。准确率60%，改回去吧。
 
 论文复现就到这儿吧。看来还是模型过拟合了。这是我第一次复现论文中的算法，也没想象中那么难。不是所有文章都是通篇的公式的。
-最后，再来自己探索一下能不能再提高一点吧。主要是解决模型过拟合的问题。找了篇文章:https://zhuanlan.zhihu.com/p/58903870
+最后，再来自己探索一下能不能再提高一点吧。主要是解决模型过拟合的问题。找了篇[文章:](https://zhuanlan.zhihu.com/p/58903870)
 防止模型过拟合的方法之一是正则化(Regularization)，其目的是要同时让经验风险和模型复杂度较小。
 正则化的方法之一，是上面的提前结束迭代。下面试试另一个方法:Dropout。它属于模型集成的一种，在训练过程中随机丢弃一部分输入，对应的参数不再更新。
 先在最先的位置增加nn.Dropout，概率20%
@@ -674,7 +672,7 @@ class improve_conv_net(nn.Module):
 pytorch的optim里实现了L2正则化，先尝试这个，设置weight_decay参数即可。设为0.01，准确率85.5%。
 还用改进前的模型跑一下新数据吧。
 
-本文代码:https://github.com/zwdnet/mnist/blob/main/mnist.py
+[本文代码:](https://github.com/zwdnet/mnist/blob/main/mnist.py)
 
 到这里，所有的改进似乎都失败了，还不如我改进以前的预测准确率高。就先到这吧，本文主要是尝试机器学习的运用过程。首先定义问题，考虑能否使用机器学习模型来解决。尝试各个模型，选择有效的，调参。对实际的新数据进行预测，评估结果。如果不满意，再调参或看看其他人是怎么做的。重复这个过程直到满意。这当中的难点，是对训练和测试数据有效的模型和参数，对实际数据未必有效，甚至效果很差。另外，数据的处理似乎比模型的选择以及调参对预测的结果影响更大。
 
