@@ -5470,3 +5470,33 @@ FATAL {
     code: 128
   }
 } Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
+INFO  Validating config
+INFO  Start processing
+INFO  Generating Baidu urls for last 1 posts
+INFO  Posts urls generated in baidu_urls.txt
+https://zwdnet.github.io/2021/03/11/%E5%AF%8C%E8%A1%80%E5%B0%8F%E6%9D%BF%E7%BA%A4%E7%BB%B4%E8%9B%8B%E7%99%BD%E5%9C%A8%E6%8B%94%E7%89%99%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/
+WARN  ===============================================================
+WARN  ========================= ATTENTION! ==========================
+WARN  ===============================================================
+WARN   NexT repository is moving here: https://github.com/theme-next 
+WARN  ===============================================================
+WARN   It's rebase to v6.0.0 and future maintenance will resume there
+WARN  ===============================================================
+INFO  Files loaded in 24 s
+INFO  0 files generated in 50 min
+INFO  Validating config
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+INFO  Copying files from extend dirs...
+On branch master
+nothing to commit, working tree clean
+fatal: unable to access 'https://github.com/zwdnet/zwdnet.github.io.git/': gnutls_handshake() failed: Error in the pull function.
+FATAL {
+  err: Error: Spawn failed
+      at ChildProcess.<anonymous> (/home/MyBlog/node_modules/hexo-deployer-git/node_modules/hexo-util/lib/spawn.js:51:21)
+      at ChildProcess.emit (events.js:315:20)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12) {
+    code: 128
+  }
+} Something's wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html
