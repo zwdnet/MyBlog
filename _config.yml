@@ -83,7 +83,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repository: https://github.com/zwdnet/zwdnet.github.io.git
+  repository: http://github.com/zwdnet/zwdnet.github.io.git
   branch: master
 - type: baidu_url_submitter
 

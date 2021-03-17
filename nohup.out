@@ -19,7 +19,7 @@ INFO  Copying files from public folder...
 INFO  Copying files from extend dirs...
 On branch master
 nothing to commit, working tree clean
-fatal: unable to access 'https://github.com/zwdnet/zwdnet.github.io.git/': gnutls_handshake() failed: Error in the pull function.
+fatal: unable to access 'http://github.com/zwdnet/zwdnet.github.io.git/': Recv failure: Connection timed out
 FATAL {
   err: Error: Spawn failed
       at ChildProcess.<anonymous> (/home/MyBlog/node_modules/hexo-deployer-git/node_modules/hexo-util/lib/spawn.js:51:21)
