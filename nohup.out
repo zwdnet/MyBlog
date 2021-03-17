@@ -139,6 +139,7 @@ INFO  Generated: tags/牙髓病/page/3/index.html
 INFO  Generated: tags/职业规划/page/2/index.html
 INFO  Generated: tags/王海鹏/page/2/index.html
 INFO  Generated: tags/量化投资/page/11/index.html
+INFO  Generated: tags/机器学习/page/5/index.html
 INFO  Generated: tags/算法/page/2/index.html
 INFO  Generated: tags/Backtrader/page/2/index.html
 INFO  Generated: images/apple-touch-icon-next.png
@@ -158,7 +159,6 @@ INFO  Generated: images/placeholder.gif
 INFO  Generated: images/quote-l.svg
 INFO  Generated: images/quote-r.svg
 INFO  Generated: images/searchicon.png
-INFO  Generated: tags/机器学习/page/5/index.html
 INFO  Generated: archives/page/2/index.html
 INFO  Generated: archives/2018/11/page/2/index.html
 INFO  Generated: archives/2019/page/2/index.html
@@ -557,7 +557,10 @@ INFO  Generated: tags/时间序列分析/index.html
 INFO  Generated: tags/建模过程/index.html
 INFO  Generated: tags/A股/index.html
 INFO  Generated: tags/指标绘图/index.html
+INFO  Generated: tags/一元线性回归/index.html
+INFO  Generated: tags/多元线性回归/index.html
 INFO  Generated: tags/变量选择/index.html
+INFO  Generated: tags/模型改进/index.html
 INFO  Generated: tags/实操/index.html
 INFO  Generated: tags/泰坦尼克号/index.html
 INFO  Generated: tags/逻辑回归/index.html
@@ -632,7 +635,7 @@ INFO  Generated: tags/分类算法/index.html
 INFO  Generated: tags/聚类算法/index.html
 INFO  Generated: tags/EDA/index.html
 INFO  Generated: tags/分类模型/index.html
-INFO  Generated: tags/模型改进/index.html
+INFO  Generated: tags/模型集成/index.html
 INFO  Generated: tags/XGBoost/index.html
 INFO  Generated: tags/牙髓病学/index.html
 INFO  Generated: tags/髓室穿通/index.html
@@ -665,13 +668,13 @@ INFO  Generated: tags/感染控制/index.html
 INFO  Generated: tags/临床技巧/index.html
 INFO  Generated: tags/局部麻醉/index.html
 INFO  Generated: tags/开髓/index.html
-INFO  Generated: tags/一次性根管治疗/index.html
 INFO  Generated: tags/根管解剖/index.html
 INFO  Generated: tags/钙化根管/index.html
+INFO  Generated: tags/一次性根管治疗/index.html
 INFO  Generated: tags/糖尿病/index.html
 INFO  Generated: tags/泌尿外科/index.html
-INFO  Generated: tags/强化学习/index.html
 INFO  Generated: tags/肾结石/index.html
+INFO  Generated: tags/强化学习/index.html
 INFO  Generated: tags/人工智能/index.html
 INFO  Generated: tags/AI/index.html
 INFO  Generated: tags/回归算法/index.html
@@ -686,13 +689,10 @@ INFO  Generated: tags/克拉克/index.html
 INFO  Generated: tags/职业生涯规划/index.html
 INFO  Generated: tags/自学/index.html
 INFO  Generated: tags/辐射安全与防护/index.html
-INFO  Generated: tags/资格证/index.html
 INFO  Generated: tags/经济学/index.html
 INFO  Generated: tags/贫富差距/index.html
 INFO  Generated: tags/资本论/index.html
-INFO  Generated: tags/多元线性回归/index.html
-INFO  Generated: tags/模型集成/index.html
-INFO  Generated: tags/一元线性回归/index.html
+INFO  Generated: tags/资格证/index.html
 INFO  Generated: lib/fastclick/LICENSE
 INFO  Generated: lib/fancybox/source/helpers/fancybox_buttons.png
 INFO  Generated: index.html
@@ -743,6 +743,8 @@ INFO  Generated: archives/2018/page/2/index.html
 INFO  Generated: archives/2018/page/3/index.html
 INFO  Generated: archives/2018/page/4/index.html
 INFO  Generated: archives/2018/page/5/index.html
+INFO  Generated: archives/2018/page/6/index.html
+INFO  Generated: archives/2018/page/7/index.html
 INFO  Generated: archives/2018/11/page/3/index.html
 INFO  Generated: archives/2018/11/page/4/index.html
 INFO  Generated: archives/2018/11/page/5/index.html
@@ -750,7 +752,6 @@ INFO  Generated: archives/2018/11/page/6/index.html
 INFO  Generated: archives/2019/page/3/index.html
 INFO  Generated: archives/2019/page/4/index.html
 INFO  Generated: archives/2019/page/5/index.html
-INFO  Generated: archives/2019/page/6/index.html
 INFO  Generated: archives/2019/page/7/index.html
 INFO  Generated: archives/2019/page/8/index.html
 INFO  Generated: archives/2019/page/9/index.html
@@ -777,6 +778,7 @@ INFO  Generated: archives/2020/page/10/index.html
 INFO  Generated: archives/2020/page/11/index.html
 INFO  Generated: archives/2020/page/12/index.html
 INFO  Generated: archives/2020/page/13/index.html
+INFO  Generated: archives/2020/page/14/index.html
 INFO  Generated: archives/2020/page/15/index.html
 INFO  Generated: archives/2020/page/16/index.html
 INFO  Generated: archives/2020/page/17/index.html
@@ -833,10 +835,10 @@ INFO  Generated: tags/读书笔记/page/2/index.html
 INFO  Generated: tags/读书笔记/page/3/index.html
 INFO  Generated: tags/读书笔记/page/4/index.html
 INFO  Generated: tags/读书笔记/page/5/index.html
-INFO  Generated: archives/2020/page/14/index.html
-INFO  Generated: archives/2018/page/7/index.html
-INFO  Generated: archives/2018/page/6/index.html
+INFO  Generated: tags/读书笔记/page/6/index.html
 INFO  Generated: tags/读书笔记/page/7/index.html
+INFO  Generated: tags/读书笔记/page/8/index.html
+INFO  Generated: tags/读书笔记/page/9/index.html
 INFO  Generated: tags/读书笔记/page/10/index.html
 INFO  Generated: tags/读书笔记/page/11/index.html
 INFO  Generated: tags/口腔外科/page/2/index.html
@@ -873,15 +875,13 @@ INFO  Generated: tags/量化投资/page/5/index.html
 INFO  Generated: tags/量化投资/page/6/index.html
 INFO  Generated: tags/量化投资/page/7/index.html
 INFO  Generated: tags/量化投资/page/8/index.html
-INFO  Generated: tags/量化投资/page/9/index.html
-INFO  Generated: tags/量化投资/page/10/index.html
+INFO  Generated: archives/2019/page/6/index.html
 INFO  Generated: tags/机器学习/page/2/index.html
 INFO  Generated: tags/机器学习/page/3/index.html
 INFO  Generated: tags/机器学习/page/4/index.html
-INFO  Generated: tags/读书笔记/page/8/index.html
 INFO  Generated: lib/font-awesome/css/font-awesome.css.map
-INFO  Generated: tags/读书笔记/page/9/index.html
-INFO  Generated: tags/读书笔记/page/6/index.html
+INFO  Generated: tags/量化投资/page/10/index.html
+INFO  Generated: tags/量化投资/page/9/index.html
 INFO  Generated: lib/fancybox/source/blank.gif
 INFO  Generated: lib/algolia-instant-search/instantsearch.min.css
 INFO  Generated: lib/canvas-nest/canvas-nest.min.js
@@ -893,13 +893,13 @@ INFO  Generated: lib/velocity/bower.json
 INFO  Generated: lib/fastclick/lib/fastclick.min.js
 INFO  Generated: page/2/index.html
 INFO  Generated: page/45/index.html
-INFO  Generated: lib/Han/dist/font/han.woff
 INFO  Generated: lib/font-awesome/HELP-US-OUT.txt
 INFO  Generated: lib/fancybox/source/fancybox_loading.gif
 INFO  Generated: lib/fancybox/source/fancybox_loading@2x.gif
 INFO  Generated: lib/fancybox/source/fancybox_overlay.png
 INFO  Generated: lib/fancybox/source/fancybox_sprite.png
 INFO  Generated: lib/fancybox/source/fancybox_sprite@2x.png
+INFO  Generated: lib/Han/dist/font/han-space.otf
 INFO  Generated: lib/fastclick/README.html
 INFO  Generated: lib/fastclick/bower.json
 INFO  Generated: lib/font-awesome/bower.json
@@ -951,7 +951,6 @@ INFO  Generated: page/23/index.html
 INFO  Generated: page/24/index.html
 INFO  Generated: page/25/index.html
 INFO  Generated: page/26/index.html
-INFO  Generated: page/27/index.html
 INFO  Generated: page/28/index.html
 INFO  Generated: page/29/index.html
 INFO  Generated: page/30/index.html
@@ -969,6 +968,7 @@ INFO  Generated: page/41/index.html
 INFO  Generated: page/42/index.html
 INFO  Generated: page/43/index.html
 INFO  Generated: page/44/index.html
+INFO  Generated: page/27/index.html
 INFO  Generated: js/src/schemes/pisces.js
 INFO  Generated: lib/ua-parser-js/dist/ua-parser.min.js
 INFO  Generated: lib/font-awesome/fonts/fontawesome-webfont.woff
@@ -981,7 +981,6 @@ INFO  Generated: lib/needsharebutton/needsharebutton.js
 INFO  Generated: lib/fancybox/source/jquery.fancybox.pack.js
 INFO  Generated: lib/fastclick/lib/fastclick.js
 INFO  Generated: lib/font-awesome/css/font-awesome.min.css
-INFO  Generated: lib/Han/dist/font/han-space.otf
 INFO  Generated: js/src/affix.js
 INFO  Generated: 2021/03/16/学习头影测量1——解剖结构描记图/index.html
 INFO  Generated: lib/three/canvas_lines.min.js
@@ -1148,7 +1147,7 @@ INFO  Generated: 2019/06/19/《牙体预备标准化操作》读书笔记02/inde
 INFO  Generated: 2019/06/18/《牙体预备标准化操作》读书笔记01/index.html
 INFO  Generated: 2019/06/15/王海鹏贴面班学习总结/index.html
 INFO  Generated: 2019/06/07/《前牙瓷粘结性仿生修复》读书笔记9：第9章-维护与修补/index.html
-INFO  Generated: 2019/06/04/《前牙瓷粘结性仿生修复》读书笔记6：第6章-牙体预备、制取印模与暂时修复/index.html
+INFO  Generated: 2019/06/04/《前牙瓷粘结性仿生修复》读书笔记7：第7章-技工室操作过程/index.html
 INFO  Generated: 2019/06/03/《前牙瓷粘结性仿生修复》读书笔记5：-第5章-诊断方法和初步治疗计划/index.html
 INFO  Generated: 2019/06/02/《前牙瓷粘结性仿生修复》读书笔记3-第3章-最大限度保存牙体组织的治疗选择/index.html
 INFO  Generated: 2019/06/01/《前牙瓷粘结性仿生修复》读书笔记1/index.html
@@ -1197,6 +1196,7 @@ INFO  Generated: 2018/11/22/右下3舌侧阻生牙拔除一例/index.html
 INFO  Generated: 2018/11/20/参加周锐牙体预备课程/index.html
 INFO  Generated: 2018/11/15/树脂充填后咬合痛/index.html
 INFO  Generated: lib/Han/dist/font/han.otf
+INFO  Generated: lib/Han/dist/font/han.woff
 INFO  Generated: 2019/10/31/《今日天文》读后感/index.html
 INFO  Generated: 2021/01/26/量化投资学习笔记100——kaggle量化投资比赛记录8-LSTM/index.html
 INFO  Generated: 2021/01/16/量化投资学习笔记97——kaggle量化投资比赛记录6-深度学习模型/index.html
@@ -1334,6 +1334,7 @@ INFO  Generated: 2019/11/05/王海鹏老师《青年牙医职业规划》第一�
 INFO  Generated: 2019/08/30/2019上海展会病例大赛网络直播/index.html
 INFO  Generated: 2019/08/09/左下后牙阻生牙拔除一例/index.html
 INFO  Generated: 2019/07/30/2019锐读会笔记-001-锐读会缘起之一路走来/index.html
+INFO  Generated: 2019/06/04/《前牙瓷粘结性仿生修复》读书笔记6：第6章-牙体预备、制取印模与暂时修复/index.html
 INFO  Generated: 2019/06/03/《前牙瓷粘结性仿生修复》读书笔记4-第4章-前牙粘结性瓷修复体（瓷贴面）适应证的发展/index.html
 INFO  Generated: 2019/05/26/《超声牙周清创：理论与技术》读书笔记10：第七章-超声牙周治疗的模块（第三部分：根分叉区域）/index.html
 INFO  Generated: 2019/05/23/《超声牙周清创：理论与技术》读书笔记08：第七章-超声牙周治疗的模块（第一部分：下前牙舌侧）/index.html
@@ -1348,7 +1349,6 @@ INFO  Generated: 2019/01/31/ETF定投数据分析4——计算各种回测指标
 INFO  Generated: 2019/01/21/ETF定投数据分析3——金融数据分析/index.html
 INFO  Generated: 2019/01/12/《牙周刮治基础与高级根面刮治》读书笔记14-模块4使用口镜/index.html
 INFO  Generated: 2019/01/11/《牙周刮治基础与高级根面刮治》读书笔记12-section2-握持变化-Grasp-Variations/index.html
-INFO  Generated: 2019/01/11/《牙周刮治基础与高级根面刮治》读书笔记11-模块3：器械握持/index.html
 INFO  Generated: 2019/01/10/《牙周刮治基础与高级根面刮治》读书笔记09右利手医生的体位/index.html
 INFO  Generated: 2019/01/10/《牙周刮治基础与高级根面刮治》读书笔记08-模块2-与治疗区域相关的医生体位/index.html
 INFO  Generated: 2019/01/10/《牙周刮治基础与高级根面刮治》读书笔记07：辅助设备/index.html
@@ -1384,7 +1384,7 @@ INFO  Generated: 2018/11/16/口外常用翻瓣方法/index.html
 INFO  Generated: 2018/11/16/漏诊一例/index.html
 INFO  Generated: 2018/11/16/拔牙好像开窍了/index.html
 INFO  Generated: 2018/11/15/开博说明/index.html
-INFO  Generated: 2019/06/04/《前牙瓷粘结性仿生修复》读书笔记7：第7章-技工室操作过程/index.html
+INFO  Generated: 2019/01/11/《牙周刮治基础与高级根面刮治》读书笔记11-模块3：器械握持/index.html
 INFO  Generated: 2020/08/29/量化投资学习笔记86——实现量化交易经典策略-多因子选股（改进1）/index.html
 INFO  Generated: 2020/05/05/量化投资学习笔记48——通过问题学算法-03你可以读心-you-can-read-minds/index.html
 INFO  Generated: 2020/05/01/量化投资学习笔记46——通过问题学算法-01你们将会完全一致-you-will-all-conform/index.html
@@ -1433,7 +1433,6 @@ INFO  Generated: 2018/11/18/拔牙围手术期并发症/index.html
 INFO  Generated: 2018/11/16/简单牙拔除术/index.html
 INFO  Generated: 2018/11/16/根管治疗失败的原因/index.html
 INFO  Generated: 2018/11/16/树脂粘结知识总结/index.html
-INFO  Generated: lib/font-awesome/fonts/FontAwesome.otf
 INFO  Generated: 2021/03/13/量化投资学习笔记102——用电脑下五子棋/index.html
 INFO  Generated: 2020/07/27/量化投资学习笔记80——实现量化交易经典策略-计算回测指标/index.html
 INFO  Generated: 2020/07/17/量化投资学习笔记77——重构回测程序/index.html
@@ -1443,16 +1442,17 @@ INFO  Generated: 2018/11/22/张东星老师昆明微创拔牙课程总结/index.
 INFO  Generated: 2018/11/20/牙髓病1——诊断/index.html
 INFO  Generated: 2018/11/20/龋病总结/index.html
 INFO  Generated: 2018/11/19/龋病4——粘接剂的使用/index.html
+INFO  Generated: lib/font-awesome/fonts/FontAwesome.otf
 INFO  Generated: 2020/04/07/量化投资学习笔记39——机器学习实操2-回归分析/index.html
 INFO  Generated: 2018/11/18/2018年中华口腔医学会年会参会记录/index.html
 INFO  Generated: 2020/07/10/量化投资学习笔记73——backtrader实操/index.html
 INFO  Generated: 2020/04/21/量化投资学习笔记42——基本数据结构算法总结1/index.html
 INFO  Generated: lib/Han/dist/han.js
 INFO  Generated: sitemap.xml
+INFO  Generated: lib/font-awesome/fonts/fontawesome-webfont.ttf
 INFO  Generated: 2021/01/23/量化投资学习笔记99——创造你的第一个深度学习框架/index.html
 INFO  Generated: lib/jquery/index.js
 INFO  Generated: lib/font-awesome/fonts/fontawesome-webfont.eot
-INFO  Generated: lib/font-awesome/fonts/fontawesome-webfont.ttf
 INFO  Generated: 2021/01/20/量化投资学习笔记98——kaggle量化投资比赛记录7-深度学习及pytorch/index.html
 INFO  Generated: 2020/06/26/量化投资学习笔记69——量化回测框架backtrader/index.html
 INFO  Generated: 2020/03/07/量化投资学习笔记11——关于时间序列你所能做的一切/index.html
@@ -1470,9 +1470,9 @@ INFO  Deploying: git
 INFO  Clearing .deploy_git folder...
 INFO  Copying files from public folder...
 INFO  Copying files from extend dirs...
-[master e723d17c] Site updated: 2021-03-17 09:24:04
- 21 files changed, 115 insertions(+), 115 deletions(-)
-fatal: unable to access 'https://github.com/zwdnet/zwdnet.github.io.git/': gnutls_handshake() failed: Error in the pull function.
+[master 473effb6] Site updated: 2021-03-17 10:04:11
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+fatal: unable to access 'https://github.com/zwdnet/zwdnet.github.io.git/': Failed to connect to github.com port 443: Connection timed out
 FATAL {
   err: Error: Spawn failed
       at ChildProcess.<anonymous> (/home/MyBlog/node_modules/hexo-deployer-git/node_modules/hexo-util/lib/spawn.js:51:21)
