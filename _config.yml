@@ -84,6 +84,7 @@ theme: next
 deploy:
 - type: git
   repository: https://github.com/zwdnet/zwdnet.github.io.git
+  # repository: git@git.zhlh6.cn:zwdnet/zwdnet.github.io.git
   branch: master
 - type: baidu_url_submitter
 
