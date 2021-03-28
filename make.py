@@ -20,5 +20,14 @@ elif gpus == "push":  #向github同步本地项目
     command += '"'
     os.system(command)
     os.system("git push origin master")
+elif gpus == "proxy":
+    os.system("nohup sslocal -c /etc/shadowsocks.json &")
+    os.system("git config --global http.proxy \'socks5://127.0.0.1:1080\'")
+    os.system("git config --global https.proxy \'socks5://127.0.0.1:1080\'")
+    os.system("hexo generate")
+    os.system("hexo deploy")
+    os.system("git config --global --unset http.proxy")
+    os.system("git config --global --unset https.proxy")
+
 else:
-    print("输入错误，参数必须为test或者post，如在本地测试用test，如上传并发布用post\n")
+    print("输入错误，参数必须为test,post或proxy，如在本地测试用test，如上传并发布用post,如用代理上传用proxy\n")
