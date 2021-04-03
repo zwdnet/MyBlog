@@ -7,7 +7,7 @@ if gpus == "test":
     os.system("hexo generate")
     os.system("hexo server")
 elif gpus == "post":
-    # os.system("hexo clean")
+    os.system("hexo clean")
     os.system("hexo generate")
     os.system("hexo deploy")
 elif gpus == "push":  #向github同步本地项目
@@ -29,6 +29,7 @@ elif gpus == "proxy":
     os.system("nohup sslocal -c /etc/shadowsocks.json &")
     os.system("git config --global http.proxy \'socks5://127.0.0.1:1080\'")
     os.system("git config --global https.proxy \'socks5://127.0.0.1:1080\'")
+    os.system("hexo clean")
     os.system("hexo generate")
     os.system("hexo deploy")
     os.system("git config --global --unset http.proxy")
