@@ -1,6 +1,7 @@
 import os
 import sys
 
+print(sys.argv)
 gpus = sys.argv[1]
 if gpus == "test":
     # os.system("hexo clean")
@@ -34,6 +35,16 @@ elif gpus == "proxy":
     os.system("hexo deploy")
     os.system("git config --global --unset http.proxy")
     os.system("git config --global --unset https.proxy")
-
+elif gpus == "create":
+    title = sys.argv[2]
+    filename = title + ".md"
+    # print(title)
+    # print(filename)
+    str = "hexo new \"" + title + "\""
+    os.system(str)
+    str = "mv ./source/_posts/" + filename + " ../code"
+    # print(str)
+    os.system(str)
+    os.system("chown 500:500 ../code/*.md")
 else:
-    print("输入错误，参数必须为test,post或proxy，如在本地测试用test，如上传并发布用post,如用代理上传用proxy\n")
+    print("输入错误，参数必须为test,post,proxy,create+文章标题，如在本地测试用test，如上传并发布用post,如用代理上传用proxy\n")
