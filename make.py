@@ -1,7 +1,6 @@
 import os
 import sys
 
-print(sys.argv)
 gpus = sys.argv[1]
 if gpus == "test":
     # os.system("hexo clean")
