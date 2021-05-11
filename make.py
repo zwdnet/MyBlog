@@ -2,6 +2,7 @@ import os
 import sys
 
 gpus = sys.argv[1]
+os.system("mv ../code/*.md ./source/_posts/")
 if gpus == "test":
     # os.system("hexo clean")
     os.system("hexo generate")
@@ -11,6 +12,7 @@ elif gpus == "post":
     os.system("hexo generate")
     os.system("hexo deploy")
 elif gpus == "push":  #向github同步本地项目
+    os.system("rm ./nohup.out")
     os.system("nohup sslocal -c /etc/shadowsocks.json &")
     os.system("git config --global http.proxy \'socks5://127.0.0.1:1080\'")
     os.system("git config --global https.proxy \'socks5://127.0.0.1:1080\'")
