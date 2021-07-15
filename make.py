@@ -2,6 +2,8 @@ import os
 import sys
 
 gpus = sys.argv[1]
+oldpath = os.getcwd()
+os.chdir("/home/MyBlog")
 os.system("mv ../code/*.md ./source/_posts/")
 if gpus == "test":
     # os.system("hexo clean")
@@ -45,13 +47,15 @@ elif gpus == "proxy":
 elif gpus == "create":
     title = sys.argv[2]
     filename = title + ".md"
-    # print(title)
-    # print(filename)
+    print(title)
+    print(filename)
     str = "hexo new \"" + title + "\""
+    print(str)
     os.system(str)
     str = "mv ./source/_posts/" + filename + " ../code"
-    # print(str)
+    print(str)
     os.system(str)
     os.system("chown 1000:1000 ../code/*.md")
 else:
     print("输入错误，参数必须为test,post,proxy,create+文章标题，如在本地测试用test，如上传并发布用post,如用代理上传用proxy\n")
+os.chdir(oldpath)
