@@ -23,7 +23,7 @@ def run(gpus, server):
         s = "scp " + sys.argv[2] + ".md ubuntu@" + server + ":~/code"
         # print(s)
         os.system(s)
-        s = "ssh root@" + server +  " -p 2222 \"python /home/MyBlog/make.py proxy \""
+        s = "ssh root@" + server +  " -p 2222 \"nohup python /home/MyBlog/make.py proxy >/dev/null 2>&1 & \""
         # print(s)
         os.system(s)
     # 将博客源码上传至github
