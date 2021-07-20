@@ -41,29 +41,3 @@ if __name__ == "__main__":
     with open("serverIP.txt", "rt") as f:
         server = f.read()
     run(gpus, server)
-        
-    
-# 工具函数，在上传到服务器上运行时改变当前目录
-def change_dir(func):
-    @wraps(func)
-    def change(*args, **kwargs):
-        oldpath = os.getcwd()
-        newpath = "/home/code/"
-        os.chdir(newpath)
-        r = func(*args, **kwargs)
-        os.chdir(oldpath)
-        return r
-    return change
-    
-    
-# 工具函数，计算函数运行时间    
-def timethis(func):
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        start = time.perf_counter()
-        r = func(*args, **kwargs)
-        end = time.perf_counter()
-        print('{}.{}的运行时间为 : {}秒'.format(func.__module__, func.__name__, end - start))
-        return r
-    return wrapper
-    
