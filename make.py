@@ -26,8 +26,8 @@ elif gpus == "push":  #向github同步本地项目
     command += message
     command += '"'
     os.system(command)
-    # os.system("git push origin master")
-    os.system("git push -u origin master -f")
+    os.system("git push origin master")
+    # os.system("git push -u origin master -f")
     os.system("git config --global --unset http.proxy")
     os.system("git config --global --unset https.proxy")
 elif gpus == "pull":

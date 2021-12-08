@@ -98,5 +98,13 @@ baidu_url_submit:
   token: sUYa4SjOeoCG3iLu
   path: baidu_urls.txt
 
+# MathJax
+math:
+  engine: 'mathjax'
+  mathjax:
+    enable: true
+    per_page: true
+    cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 
 
