@@ -826,3 +826,11 @@ version: 5.1.4
 
 # CNZZ流量统计
 cnzz: false
+
+# RSS
+feed:
+    type: rss2
+    path: rss2.xml
+    limit: 10
+    hub:
+    content: 'true'

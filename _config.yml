@@ -78,6 +78,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: yearn
 theme: next
+plugins: hexo-generate-feed
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -105,6 +106,5 @@ math:
     enable: true
     per_page: true
     cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
 
 
