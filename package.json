@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "6.0.0"
+    "version": "6.1.0"
   },
   "dependencies": {
-    "hexo": "^6.0.0",
+    "hexo": "^6.1.0",
     "hexo-baidu-url-submit": "0.0.6",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
@@ -14,7 +14,7 @@
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-json-content": "^4.2.3",
-    "hexo-generator-sitemap": "^2.2.0",
+    "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^1.0.0",
     "hexo-math": "^4.0.0",
     "hexo-renderer-ejs": "^2.0.0",
@@ -23,6 +23,6 @@
     "hexo-renderer-swig": "^1.1.0",
     "hexo-server": "^3.0.0",
     "hexo-wordcount": "^6.0.1",
-    "marked": ">=4.0.12"
+    "marked": ">=4.0.14"
   }
 }
