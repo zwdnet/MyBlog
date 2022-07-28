@@ -1,5 +1,0 @@
-INFO: loading config from /etc/shadowsocks.json
-2022-07-18 20:59:35 INFO     loading libcrypto from /opt/conda/envs/AI/lib/libcrypto.so.1.1
-2022-07-18 20:59:35 INFO     loading libsodium from libsodium.so.23
-2022-07-18 20:59:35 INFO     starting local at 127.0.0.1:1080
-2022-07-18 20:59:35 ERROR    [Errno 98] Address already in use
