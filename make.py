@@ -19,6 +19,7 @@ elif gpus == "push":  #向github同步本地项目
     # os.system("git config --global http.proxy \'socks5://127.0.0.1:1080\'")
     # os.system("git config --global https.proxy \'socks5://127.0.0.1:1080\'")
     os.system("hexo clean")
+    os.system("rm ./core")
     os.system("git add .")
     message = "增加了一篇博文。"
     command = "git commit -a -m"
