@@ -267,7 +267,7 @@ post_copyright:
 # ---------------------------------------------------------------
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($black-deep).
 android_chrome_color: "#222"
@@ -403,7 +403,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC80MTA2Mi8xNzU4Nw==
+# ilivere_uid: MTAyMC80MTA2Mi8xNzU4Nw==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -488,7 +488,7 @@ baidu_site_verification: true
 #yandex_site_verification:
 
 # CNZZ count
-cnzz_siteid: 1275447216
+#cnzz_siteid: 1275447216
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
@@ -825,7 +825,7 @@ images: images
 version: 5.1.4
 
 # CNZZ流量统计
-cnzz: false
+# cnzz: false
 
 # RSS
 feed:
