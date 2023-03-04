@@ -6,7 +6,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
-    "hexo": "^6.1.0",
+    "hexo": "^6.3.0",
     "hexo-baidu-url-submit": "0.0.6",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
@@ -19,10 +19,10 @@
     "hexo-math": "^4.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.0.0",
-    "hexo-renderer-stylus": "^2.0.1",
+    "hexo-renderer-stylus": "^2.1.0",
     "hexo-renderer-swig": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-wordcount": "^6.0.1",
-    "marked": ">=4.0.14"
+    "marked": "^4.2.12"
   }
 }
