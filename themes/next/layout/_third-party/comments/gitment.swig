@@ -35,8 +35,6 @@
             {% endif %}
             {% if theme.gitment.mint and theme.gitment.proxy_gateway %}
                 proxy_gateway: '{{ theme.gitment.proxy_gateway }}',
-            {% else %}
-                client_secret: '{{ theme.gitment.client_secret }}',
             {% endif %}
                 client_id: '{{ theme.gitment.client_id }}'
             }});
