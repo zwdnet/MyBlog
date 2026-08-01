@@ -3,15 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.2"
   },
   "dependencies": {
-    "hexo": "^7.3.0",
+    "hexo": "^8.1.2",
     "hexo-baidu-url-submit": "0.0.6",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-feed": "^4.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-json-content": "^4.2.3",
     "hexo-generator-sitemap": "^3.0.1",
@@ -23,6 +23,6 @@
     "hexo-renderer-swig": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-wordcount": "^6.0.1",
-    "marked": "^16.0.0"
+    "marked": "^18.0.7"
   }
 }
