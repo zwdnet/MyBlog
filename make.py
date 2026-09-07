@@ -1,4 +1,5 @@
 import os
+import subprocess
 import sys
 
 gpus = sys.argv[1]
@@ -51,12 +52,8 @@ elif gpus == "create":
     filename = title + ".md"
     print(title)
     print(filename)
-    str = "hexo new \"" + title + "\""
-    print(str)
-    os.system(str)
-    str = "mv ./source/_posts/" + filename + " ../code"
-    print(str)
-    os.system(str)
+    subprocess.run(["hexo", "new", title], check=True)
+    subprocess.run(["mv", "./source/_posts/" + filename, "../code"], check=True)
     os.system("chown 1000:1000 ../code/*.md")
 else:
     print("输入错误，参数必须为test,post,proxy,create+文章标题，如在本地测试用test，如上传并发布用post,如用代理上传用proxy\n")
