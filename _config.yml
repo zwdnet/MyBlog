@@ -84,20 +84,20 @@ plugins: hexo-generate-feed
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repository: https://github.com/zwdnet/zwdnet.github.io.git
+  repository: git@github.com:zwdnet/zwdnet.github.io.git
   # repository: git@git.zhlh6.cn:zwdnet/zwdnet.github.io.git
   branch: master
-- type: baidu_url_submitter
+# - type: baidu_url_submitter
 
 #Sitemap
 #plugins: hexo-generator-sitemap
 
 # 百度主动提交
-baidu_url_submit:
-  count: 1
-  host: https://zwdnet.github.io
-  token: sUYa4SjOeoCG3iLu
-  path: baidu_urls.txt
+# baidu_url_submit:
+#  count: 1
+#  host: https://zwdnet.github.io
+#  token: sUYa4SjOeoCG3iLu
+#  path: baidu_urls.txt
 
 # MathJax
 math:
