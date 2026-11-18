@@ -12,20 +12,31 @@ def run(gpus, server):
     if gpus == "create":
         # 运行创建代码
         s = "ssh root@" + server +  " -p 2222 \"python /home/MyBlog/make.py create \"" + sys.argv[2] + "\"" + "\""
-        # print(s)
+        # print("测试:", s)
         os.system(s)
         # 将博客文件传回
         s = "scp ubuntu@" + server + ":~/code/*.md ."
         # print(s)
         os.system(s)
+        # 删除服务器上的博客文件
+        s = "ssh ubuntu@" + server +  " \"rm  ~/code/*.md\""
+        # print("测试:", s)
+        os.system(s)
     # 将编辑好的博客文件上传并发表
     elif gpus == "post":
-        s = "scp " + sys.argv[2] + ".md ubuntu@" + server + ":~/code"
-        # print(s)
-        os.system(s)
-        s = "ssh root@" + server +  " -p 2222 \"nohup python /home/MyBlog/make.py proxy >/dev/null 2>&1 & \""
-        # print(s)
-        os.system(s)
+        # 不上传，直接发表
+        if len(sys.argv) <= 2:
+            s = "ssh root@" + server +  " -p 2222 \"nohup python /home/MyBlog/make.py post " + " >/dev/null 2>&1 & \""
+            # print(s)
+            os.system(s)
+        else:#上传文件并发表
+            s = "scp " + sys.argv[2] + ".md ubuntu@" + server + ":~/code"
+            # print(s)
+            os.system(s)
+            s = "ssh root@" + server +  " -p 2222 \"nohup python /home/MyBlog/make.py post \"" + sys.argv[2] + "\" >/dev/null 2>&1 & \""
+            # print(s)
+            os.system(s)
+
     # 将博客源码上传至github
     elif gpus == "push":
         s = "ssh root@" + server +  " -p 2222 \"python /home/MyBlog/make.py push\""
