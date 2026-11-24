@@ -20,12 +20,14 @@ elif gpus == "post":
     os.system("hexo generate")
     os.system("hexo deploy")
 elif gpus == "push":  #向github同步本地项目
-    os.system("rm ./nohup.out")
+    if os.path.exists("./nohup.out"):
+        os.remove("./nohup.out")
     # os.system("nohup sslocal -c /etc/shadowsocks.json &")
     # os.system("git config --global http.proxy \'socks5://127.0.0.1:1080\'")
     # os.system("git config --global https.proxy \'socks5://127.0.0.1:1080\'")
     os.system("hexo clean")
-    os.system("rm ./core")
+    if os.path.exists("./core"):
+        os.remove("./core")
     os.system("git add .")
     message = "增加了一篇博文。"
     command = "git commit -a -m"
