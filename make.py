@@ -1,10 +1,16 @@
 import os
+import shutil
 import sys
+
+# ../code 里的智能体配置文件不是博文，不能搬进 source/_posts
+NOT_POSTS = {"AGENTS.md", "CLAUDE.md"}
 
 gpus = sys.argv[1]
 oldpath = os.getcwd()
 os.chdir("/home/MyBlog")
-os.system("mv ../code/*.md ./source/_posts/")
+for name in os.listdir("../code"):
+    if name.endswith(".md") and name not in NOT_POSTS:
+        shutil.move(os.path.join("../code", name), os.path.join("source/_posts", name))
 if gpus == "test":
     # os.system("hexo clean")
     os.system("hexo generate")
